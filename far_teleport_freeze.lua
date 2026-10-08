@@ -5,7 +5,7 @@
 local Players = game:GetService("Players")
 local lp = Players.LocalPlayer
 
-local FAR = 1e7          -- jarak teleport. Naikkan (1e8, 1e9) kalau belum freeze
+local FAR = 1e20          -- jarak teleport. Naikkan (1e8, 1e9) kalau belum freeze
 local AUTO_RETURN = nil  -- isi detik (misal 3) supaya balik otomatis, nil = manual
 
 local active = false
